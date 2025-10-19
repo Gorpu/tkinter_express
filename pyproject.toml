@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkinter-express"  # nome do pacote que o pip verá
+version = "0.1.0"
+description = "Toolkit de interface gráfica simples para Tkinter"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Liedson Rocha Ferreira", email = "liedson@example.com" }
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/liedsonrf/tkinter_express"

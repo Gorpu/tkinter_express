@@ -3,18 +3,19 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tkinter-express"  # nome do pacote que o pip verá
+name = "tk-express"
 version = "0.1.0"
-description = "Toolkit de interface gráfica simples para Tkinter"
+description = "Biblioteca de widgets Tkinter com ícones de erro e sucesso"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-
 authors = [
-    { name = "Liedson Rocha Ferreira", email = "liedson@example.com" }
+    { name = "Liedson Rocha Ferreira"}
 ]
-
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/liedsonrf/tkinter_express"
+Homepage = "https://github.com/Gorpu/tk-express"
+
+[tool.setuptools.package-data]
+tk_express = ["assets/*"]
